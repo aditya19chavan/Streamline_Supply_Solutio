@@ -1,0 +1,162 @@
+.button{
+    width: 200px;
+}
+
+
+.client-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9edd7;
+}
+
+.client-row {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.client-col-left {
+    margin-right: 20px;
+}
+
+.client-col-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-logo {
+    width: 100px;
+    height: 100px;
+   
+}
+
+.client-btn-login-popup {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.client-btn-login-popup:hover {
+    background-color: #218838;
+}
+
+.client-signup-prompt {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.client-signup-prompt a {
+    color: #162938;;
+    text-decoration: none;
+}
+
+.client-signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+.client-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-form-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #000000; /* Optional border for enhanced edge visibility */
+    width: 400px;
+    text-align: left;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15); /* Shadow on the borders */
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.client-form-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+.client-input-box {
+    margin: 15px 0;
+}
+
+.client-input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.client-input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.client-input-box input:focus {
+    border-color: #162938;;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.client-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #162938;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.client-btn:hover {
+    background-color: #188a0b;;
+}
+
+.client-icon-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.client-login-register {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.client-login-register span {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.client-login-register span:hover {
+    text-decoration: none;
+}

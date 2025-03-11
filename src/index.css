@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* About us css start */
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 101%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black layer */
+      z-index: 1; /* Make sure the overlay is on top of the image */
+    }
+
+      .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white; /* Text color */
+      font-size: 30px; /* Font size */
+      font-weight: bold; /* Font weight */
+      z-index: 2; /* Ensure text is above the overlay */
+    }
+    
+/* About us css end */
